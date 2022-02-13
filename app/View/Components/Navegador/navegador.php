@@ -7,11 +7,11 @@ use Illuminate\View\Component;
 class navegador extends Component
 {
 
-    public $title;
-    public function __construct($title)
+    public $texto;
+    public function __construct($texto)
     {
         //
-        $this->title = $title;
+       $this->texto = $texto;
     }
 
     /**

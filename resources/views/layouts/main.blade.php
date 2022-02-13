@@ -12,7 +12,7 @@
     <title>@yield('title')</title>
 </head>
 <body>
-    <x-navegador.navegador title="{{$title}}"/>
+    <x-navegador.navegador :title="$title"/>
       <div class="row">         
           @yield('content')
     </div>
